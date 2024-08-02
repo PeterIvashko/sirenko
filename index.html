@@ -1,13 +1,18 @@
+<!-- #region head -->
 <!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Tania Sirenko - SMM-спеціаліст | Просування бізнесу | Instagram</title>
 </head>
+<!-- #endregion -->
 <body>
     <header class="header">
         <div class="header-top">
@@ -25,7 +30,25 @@
                         <a href="#" class="menu-element__link">Про мене</a>
                     </li>
                     <li class="menu-element">
-                        <a href="#" class="menu-element__link">Послуги</a>
+                        <a href="#" class="menu-element__link header-services">Послуги 
+                            <img 
+                            src="./img/icon/moreIcon.png" 
+                            alt="icon" 
+                            class="menu-element__icon moreIcon"
+                            />
+                            <img 
+                            src="./img/icon/lessIcon.png" 
+                            alt="icon" 
+                            class="menu-element__icon lessIcon"
+                            />
+                        </a>
+                        <!-- <ul class="menu-services">
+                            <li class="menu-services__element"><a href="#" class="services-link">Розбір - Консультація</a></li>
+                            <li class="menu-services__element"><a href="#" class="services-link">Таргет для себе</a></li>
+                            <li class="menu-services__element"><a href="#" class="services-link">Консультація за записом</a></li>
+                            <li class="menu-services__element"><a href="#" class="services-link">Упакування профілю</a></li>
+                            <li class="menu-services__element"><a href="#" class="services-link">Налаштування таргету</a></li>
+                        </ul> -->
                     </li>
                     <li class="menu-element">
                         <a href="#" class="menu-element__link">Кейси</a>
@@ -37,72 +60,49 @@
             </nav>
 
         </div>
+    </header>
+
+    <section class="main">
 
         <div class="header-center">
-            <h1 class="name">Tania</h1>
-            <h1 class="last-name">Sirenko</h1>
-            <p class="description">
-                Смм, упакування та ведення профілю, сторісмейкер, особистий бренд
-            </p>
+            <p class="name">Tania</p>
+            <p class="last-name">Sirenko</p>
+            <p class="header-center__description">SMM&ТАРГЕТОЛОГ, УПАКУВАННЯ ТА ПРОСУВАННЯ</p>
+            <p class="header-center__description">ПРОФІЛЮ , КОНСУЛЬТАЦІЇ З РОЗВИТКУ INSTAGRAM</p>
         </div>
 
-        <div class="header-bottom">
+    </section>
+
+    <section class="my-photo">
+        
+        <div class="my-photo__elements">
             <img 
-            src="./img/header1.JPG" 
+            src="./img/photo.png" 
             alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header2.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header3.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header4.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header5.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header6.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header7.JPG" 
-            alt="" 
-            class="header-img"
-            >
-            <img 
-            src="./img/header8.JPG" 
-            alt="" 
-            class="header-img"
-            >
+            class="photo"
+            />
         </div>
-    </header>
+
+    </section>
 
     <section class="about-me">
         <div class="center">
             <h2 class="second-title">Про мене</h2>
-            <p class="about-me-text">Мені 21 <br> Вже більше 2-х років я працюю SMM-спеціалістом та таргетологом і займаюсь упакуванням, просуванням бізнесів в Instagram, 
-                а також консультую бізнеси, експерти, особисті блоги з питань просування, ведення та налаштування таргетованої реклами</p>
+            <p class="about-me-text">Я Таня - таргетолог та СММ-спеціаліст, який більше 2,5 років разом з командою просуває бізнеси
+                <br>та експертів у соцмережах в Україні та закордоном.
+                <br>Крім ього близько року навчаю вести Instagram та налаштовувати рекламу самостійно, 
+                <br> без допомоги різних спеціалістів, економлячи при цьому від 300$ щомісяця</p>
         </div>
         
         <div class="study">
-            <div class="left">
-                <img src="./img/aboutMe1.JPG" alt="">
-            </div>
             <div class="right">
-                <h2 class="study-title">Навчання</h2>
+                <img 
+                src="./img/aboutMe1.JPG" 
+                alt="" 
+                class="study-image"
+                />
+                <div class="study-description">
+                    <h2 class="study-title">Навчання</h2>
                     <ul class="study-list">
                         <li class="study-list-description">Закінчила курси:</li>
                         <li class="study-list-description">~ СММ-ЛІДЕР: курс by KOZARKA 2022 </li>
@@ -117,40 +117,60 @@
                         <li class="study-list-description">~ Наставництво з таргету від Яни Надяк </li>
                         <li class="study-list-description">~ Інтенсив з продажів на високий чек від Яни Надяк</li>
                     </ul>
+                </div>
             </div>
 
             <div class="job">
-            <div class="left">                
+                <img 
+                src="./img/aboutMe2.JPG" 
+                alt=""
+                class="job-image"
+                />
+
+                <div class="left"> 
+                
+                <h2 class="job-title">Досвід роботи</h2>
+                
                 <div class="job-box__left">
-                    <h3>СТОРІСМЕЙКЕР, КОПІРАЙТЕР ТА МЕНЕДЖЕР З ВІЗУАЛУ</h3>
+                    <h3 class="job-box__bold">СТОРІСМЕЙКЕР, КОПІРАЙТЕР ТА МЕНЕДЖЕР З ВІЗУАЛУ</h3>
                     <p class="job-description">
-                        салон краси, студія масажу, косметолог, магазин косметики, магазин товарів з Європи, лашмейкер, майстер манікюру (2020-2022)
+                        салон краси, студія масажу, косметолог, магазин косметики,
+                        <br> магазин товарів з Європи, лашмейкер, майстер манікюру
+                        <br> (2020-2022)
                     </p>
                 </div>
+
                 <div class="job-box__right">
-                    <h3>- КОМПЛЕКСНЕ ВЕДЕННЯ ПРОФІЛЮ</h3>
+                    <h3 class="job-box__bold">SMM СПЕЦІАЛІСТ</h3>
+                    <h3 class="job-box__title">- КОМПЛЕКСНЕ ВЕДЕННЯ ПРОФІЛЮ</h3>
                     <p class="job-description">
-                        архітектор-дизайнер інтер‘єру та екстер‘єру; студія декору; лікар-офтальмолог; оптика+офтальмологія; матеріали для рукоділля, курси німецької мови, лашмейкер зі Швеції, магазин підлоги; студія пілатесу та особистий блог тренера пілатесу у Нью-Йорку
+                        архітектор-дизайнер інтер‘єру та екстер‘єру; студія декору;
+                        <br> лікар-офтальмолог; оптика+офтальмологія; матеріали для
+                        <br> рукоділля, курси німецької мови, лашмейкер зі Швеції,
+                        <br> магазин підлоги; студія пілатесу та особистий блог
+                        <br> тренера пілатесу у Нью-Йорку
                     </p>
                 </div>
+
                 <div class="job-box__left">
-                    <h3>- СТОРІТЕЛІНГ ТА СТОРІСМЕЙКІНГ</h3>
+                    <h3 class="job-box__title">- СТОРІТЕЛІНГ ТА СТОРІСМЕЙКІНГ</h3>
                     <p class="job-description">
-                        студія манікюру; магазин дитячого одягу; стоматологія; студія масажу, курси англійської мови;
+                        студія манікюру; магазин дитячого одягу;
+                        <br> стоматологія; студія масажу, курси англійської мови;
                     </p>
                 </div>
+
                 <div class="job-box__right">
-                    <h3>- УПАКУВАННЯ ПРОФІЛЮ</h3>
+                    <h3 class="job-box__title">- УПАКУВАННЯ ПРОФІЛЮ</h3>
                     <p class="job-description">
-                        стоматологія; магазин нижньої білизни, агенція з організації та координації весіль; компанія з ремонту; майстер манікюру, фізіотерапевт, викладач англійської;
+                        стоматологія; магазин нижньої білизни, агенція з
+                        <br> організації та координації весіль; компанія з ремонту;
+                        <br> майстер манікюру, фізіотерапевт, викладач англійської;
                     </p>
                 </div>
+                
             </div>
 
-            <div class="right">
-                <h2 class="job-title">Досвід роботи</h2>
-                    <img src="./img/aboutMe2.JPG" alt="">
-            </div>
         </div>
         
     </section>
@@ -163,7 +183,7 @@
                 <div class="services-list__block">
                     <h2 class="services-title">РОЗБІР-КОНСУЛЬТАЦІЯ</h2>
 
-                    <h3 class="third-title">ДЛЯ БІЗНЕСІВ, ЕКСПЕРТІВ ТАІНШИХ АКАУНТІВ, ЯКІ:</h3>
+                    <h3 class="third-title">ДЛЯ БІЗНЕСІВ, ЕКСПЕРТІВ ТА ІНШИХ АКАУНТІВ, ЯКІ:</h3>
 
                     <ul class="services-list">
                         <li class="services-list__element">/планують запуск реклами і хочуть швидко підготувати профіль до запуску</li>
@@ -172,6 +192,12 @@
                         <li class="services-list__element">/бажають покращити свою роботу, змінивши стиль ведення</li>
                         <li class="services-list__element">/хочуть отримати критику для свого акаунту</li>
                     </ul>
+
+                    <button class="services-button" onclick="window.location.href = './services1.html';">
+                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
+                        <img src="./img/icon/moreServices.png" alt="">
+                    </button>
+                    
                 </div>
             </li>
             <li class="services-list__element">
@@ -179,13 +205,25 @@
                     <h2 class="services-title">ТАРГЕТ ДЛЯ СЕБЕ</h2>
 
                     <h3 class="third-title">послуга підійде всім, хто хоче навчитися самостійно якісно та ефективно налаштовувати рекламу для свого акаунту</h3>
+                    
+                    <button class="services-button" onclick="window.location.href = './services2.html';">
+                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
+                        <img src="./img/icon/moreServices.png" alt="">
+                    </button>
+
                 </div>
             </li>
             <li class="services-list__element">
                 <div class="services-list__block">
                     <h2 class="services-title">КОНСУЛЬТАЦІЯ ЗА ЗАПИТОМ</h2>
 
-                    <h3 class="third-title">ФОРмат для тих, Хто хоЧе тОчково закрити те, що не виходить якісно ЗРОбИТИ</h3>
+                    <h3 class="third-title">Формат для тих, хто хоче точково закрити те, що не виходить якісно зробити</h3>
+                    
+                    <button class="services-button" onclick="window.location.href = './services3.html';">
+                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
+                        <img src="./img/icon/moreServices.png" alt="">
+                    </button>
+
                 </div>
             </li>
             <li class="services-list__element">
@@ -193,9 +231,37 @@
                     <h2 class="services-title">УПАКУВАННЯ ПРОФІЛЮ</h2>
 
                     <h3 class="third-title">Для експертів, бізнесів, особистих блогів та всіх, хто хоче розвивати свій Instagram без делегування ведення спеціалісту</h3>
+                    
+                    <button class="services-button" onclick="window.location.href = './services4.html';">
+                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
+                        <img src="./img/icon/moreServices.png" alt="">
+                    </button>
+
+                </div>
+            </li>
+            <li class="services-list__element">
+                <div class="services-list__block">
+                    <h2 class="services-title">НАЛАШТУВАННЯ ТАРГЕТУ</h2>
+
+                    <h3 class="third-title"></h3>
+
+                    <ul class="services-list">
+                        <li class="services-list__element"></li>
+                        <li class="services-list__element"></li>
+                        <li class="services-list__element"></li>
+                        <li class="services-list__element"></li>
+                        <li class="services-list__element"></li>
+                    </ul>
+                    
+                    <button class="services-button" onclick="window.location.href = './services5.html';">
+                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
+                        <img src="./img/icon/moreServices.png" alt="">
+                    </button>
+
                 </div>
             </li>
         </ul>
+
     </section>
 
     <section class="cases">
@@ -205,6 +271,26 @@
             <a href="#" class="next-case"><img src="./img/icon/nextIcon.png" alt="Наступний кейс"></a>
         </div>
 
+        <ul class="case">
+            <li class="case_elements">
+
+            </li>
+            <li class="case_elements">
+
+            </li>
+            <li class="case_elements">
+
+            </li>
+            <li class="case_elements">
+
+            </li>
+            <li class="case_elements">
+
+            </li>
+            <li class="case_elements">
+
+            </li>
+        </ul>
         
     </section>
 
