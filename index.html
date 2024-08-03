@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="website icon" href="./img/icon/websiteIcon.PNG" type="png">
     <title>Tania Sirenko - SMM-спеціаліст | Просування бізнесу | Instagram</title>
 </head>
 <!-- #endregion -->
@@ -27,7 +28,7 @@
             <nav class="navigation">
                 <ul class="menu">
                     <li class="menu-element">
-                        <a href="#" class="menu-element__link">Про мене</a>
+                        <a href="#about" class="menu-element__link">Про мене</a>
                     </li>
                     <li class="menu-element">
                         <a href="#" class="menu-element__link header-services">Послуги 
@@ -54,7 +55,7 @@
                         <a href="#" class="menu-element__link">Кейси</a>
                     </li>
                     <li class="menu-element">
-                        <a href="#" class="menu-element__link">Контакти</a>
+                        <a href="#footer" class="menu-element__link">Контакти</a>
                     </li>
                 </ul>
             </nav>
@@ -62,7 +63,7 @@
         </div>
     </header>
 
-    <section class="main">
+    <section id="main" class="main">
 
         <div class="header-center">
             <p class="name">Tania</p>
@@ -85,7 +86,7 @@
 
     </section>
 
-    <section class="about-me">
+    <section id="about" class="about-me">
         <div class="center">
             <h2 class="second-title">Про мене</h2>
             <p class="about-me-text">Я Таня - таргетолог та СММ-спеціаліст, який більше 2,5 років разом з командою просуває бізнеси
@@ -176,26 +177,36 @@
     </section>
 
     <section class="services">
-        <h2 class="second-title">Послуги</h2>
+        <h2 class="second-title services-center">Послуги</h2>
 
         <ul class="services-list">
             <li class="services-list__element">
                 <div class="services-list__block">
-                    <h2 class="services-title">РОЗБІР-КОНСУЛЬТАЦІЯ</h2>
+                    <h2 class="services-title">РОЗБІР- <br> КОНСУЛЬТАЦІЯ</h2>
 
-                    <h3 class="third-title">ДЛЯ БІЗНЕСІВ, ЕКСПЕРТІВ ТА ІНШИХ АКАУНТІВ, ЯКІ:</h3>
+                    <img 
+                    src="./img/icon/line.png" 
+                    alt="line" 
+                    class="line"
+                    />
 
-                    <ul class="services-list">
-                        <li class="services-list__element">/планують запуск реклами і хочуть швидко підготувати профіль до запуску</li>
-                        <li class="services-list__element">/ведуть профіль, але хочуть робити це якісніше</li>
-                        <li class="services-list__element">/не знають як вести профіль, але хочуть робити це самостійно</li>
-                        <li class="services-list__element">/бажають покращити свою роботу, змінивши стиль ведення</li>
-                        <li class="services-list__element">/хочуть отримати критику для свого акаунту</li>
+                    <h3 class="third-title">ДЛЯ БІЗНЕСІВ, ЕКСПЕРТІВ <br> ТА ІНШИХ АКАУНТІВ, ЯКІ:</h3>
+
+                    <ul class="services-block">
+                        <li class="services-block__element">/планують запуск реклами і хочуть швидко підготувати профіль до запуску</li>
+                        <li class="services-block__element">/ведуть профіль, але хочуть робити це якісніше</li>
+                        <li class="services-block__element">/не знають як вести профіль, але хочуть робити це самостійно</li>
+                        <li class="services-block__element">/бажають покращити свою роботу, змінивши стиль ведення</li>
+                        <li class="services-block__element">/хочуть отримати критику для свого акаунту</li>
                     </ul>
 
                     <button class="services-button" onclick="window.location.href = './services1.html';">
-                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
-                        <img src="./img/icon/moreServices.png" alt="">
+                        <p class="services-button__title" >Дізнатись більше</p>
+                        <img 
+                        src="./img/icon/moreServices.png" 
+                        alt="Icon for buttons"
+                        class="services-button__icon"
+                        />
                     </button>
                     
                 </div>
@@ -204,11 +215,21 @@
                 <div class="services-list__block">
                     <h2 class="services-title">ТАРГЕТ ДЛЯ СЕБЕ</h2>
 
-                    <h3 class="third-title">послуга підійде всім, хто хоче навчитися самостійно якісно та ефективно налаштовувати рекламу для свого акаунту</h3>
+                    <img 
+                    src="./img/icon/line.png" 
+                    alt="line" 
+                    class="line"
+                    />
+
+                    <h3 class="third-title">послуга підійде всім, хто хоче <br> навчитися самостійно якісно та <br> ефективно налаштовувати <br> рекламу для свого акаунту</h3>
                     
                     <button class="services-button" onclick="window.location.href = './services2.html';">
-                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
-                        <img src="./img/icon/moreServices.png" alt="">
+                        <p class="services-button__title" >Дізнатись більше</p>
+                        <img 
+                        src="./img/icon/moreServices.png" 
+                        alt="Icon for buttons"
+                        class="services-button__icon"
+                        />
                     </button>
 
                 </div>
@@ -217,11 +238,21 @@
                 <div class="services-list__block">
                     <h2 class="services-title">КОНСУЛЬТАЦІЯ ЗА ЗАПИТОМ</h2>
 
-                    <h3 class="third-title">Формат для тих, хто хоче точково закрити те, що не виходить якісно зробити</h3>
+                    <img 
+                    src="./img/icon/line.png" 
+                    alt="line" 
+                    class="line"
+                    />
+
+                    <h3 class="third-title">Формат для тих, хто хоче точково <br> закрити те, що не виходить якісно <br> зробити</h3>
                     
                     <button class="services-button" onclick="window.location.href = './services3.html';">
-                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
-                        <img src="./img/icon/moreServices.png" alt="">
+                        <p class="services-button__title" >Дізнатись більше</p>
+                        <img 
+                        src="./img/icon/moreServices.png" 
+                        alt="Icon for buttons"
+                        class="services-button__icon"
+                        />
                     </button>
 
                 </div>
@@ -230,11 +261,21 @@
                 <div class="services-list__block">
                     <h2 class="services-title">УПАКУВАННЯ ПРОФІЛЮ</h2>
 
-                    <h3 class="third-title">Для експертів, бізнесів, особистих блогів та всіх, хто хоче розвивати свій Instagram без делегування ведення спеціалісту</h3>
+                    <img 
+                    src="./img/icon/line.png" 
+                    alt="line" 
+                    class="line"
+                    />
+
+                    <h3 class="third-title">Для експертів, бізнесів, особистих <br> блогів та всіх, хто хоче розвивати <br> свій Instagram без делегування <br> ведення спеціалісту</h3>
                     
                     <button class="services-button" onclick="window.location.href = './services4.html';">
-                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
-                        <img src="./img/icon/moreServices.png" alt="">
+                        <p class="services-button__title" >Дізнатись більше</p>
+                        <img 
+                        src="./img/icon/moreServices.png" 
+                        alt="Icon for buttons"
+                        class="services-button__icon"
+                        />
                     </button>
 
                 </div>
@@ -242,6 +283,12 @@
             <li class="services-list__element">
                 <div class="services-list__block">
                     <h2 class="services-title">НАЛАШТУВАННЯ ТАРГЕТУ</h2>
+
+                    <img 
+                    src="./img/icon/line.png" 
+                    alt="line" 
+                    class="line"
+                    />
 
                     <h3 class="third-title"></h3>
 
@@ -254,8 +301,12 @@
                     </ul>
                     
                     <button class="services-button" onclick="window.location.href = './services5.html';">
-                        <p>ДІЗНАТИСЬ БІЛЬШЕ</p>
-                        <img src="./img/icon/moreServices.png" alt="">
+                        <p class="services-button__title" >Дізнатись більше</p>
+                        <img 
+                        src="./img/icon/moreServices.png" 
+                        alt="Icon for buttons"
+                        class="services-button__icon"
+                        />
                     </button>
 
                 </div>
@@ -264,7 +315,7 @@
 
     </section>
 
-    <section class="cases">
+    <!-- <section class="cases">
         <div class="switch-case">
             <a href="#" class="previous-case"><img src="./img/icon/previousIcon.png" alt="Попередній кейс"></a>
             <h2 class="second-title">Кейси</h2>
@@ -292,25 +343,44 @@
             </li>
         </ul>
         
-    </section>
+    </section> -->
 
-    <footer class="footer">
-        <h2 class="name">taniasirenko_</h2>
+    <footer id="footer" class="footer">
+        <h2 class="footer-name">taniasirenko_</h2>
+
         <ul class="socials">
             <li class="social-element">
-                <a href="https://www.instagram.com/taniasirenko_/" target="_blank" class="social-element__link"> <img src="./img/icon/instIcon.png"> @taniasirenko_</a>
+                <a href="https://www.instagram.com/taniasirenko_/" target="_blank" class="social-element__link">
+                    <img 
+                        src="./img/icon/instIcon.png"
+                        alt="SM Icon"
+                        class="sm-icon"
+                    /> 
+                    @taniasirenko_</a>
             </li>
             <li class="social-element">
-                <a href="https://web.telegram.org/a/#668460717" target="_blank" class="social-element__link"> <img src="./img/icon/tgIcon.png"> @Tania_Sirenko</a>
+                <a href="https://web.telegram.org/a/#668460717" target="_blank" class="social-element__link"> 
+                    <img 
+                        src="./img/icon/tgIcon.png"
+                        alt="SM Icon"
+                        class="sm-icon"
+                    /> 
+                    @Tania_Sirenko</a>
             </li>
             <li class="social-element">
-                <a href="" target="_blank" class="social-element__link"> <img src="./img/icon/gmailIcon.png"> taniaivashkooo0@gmail.com</a>
+                <a href="mailto:taniaivashkooo0@gmail.com" target="_blank" class="social-element__link"> 
+                    <img 
+                        src="./img/icon/gmailIcon.png"
+                        alt="SM Icon"
+                        class="sm-icon"
+                    />
+                    taniaivashkooo0@gmail.com</a>
             </li>
         </ul>
 
         <p class="footer-about">
             &copy;&nbsp;designed&nbsp;by&nbsp;Pabl0
-            <br>development&nbsp;from&nbsp;Peter&nbsp;Ivashko
+            <br>&copy;&nbsp;development&nbsp;from&nbsp;Peter&nbsp;Ivashko
         </p>
     </footer>
 </body>
